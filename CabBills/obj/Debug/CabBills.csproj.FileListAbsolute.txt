@@ -1,0 +1,13 @@
+C:\TNow Documents\CabBills\CabBills\bin\Debug\CabBills.exe.config
+C:\TNow Documents\CabBills\CabBills\obj\Debug\CabBills.csprojResolveAssemblyReference.cache
+C:\TNow Documents\CabBills\CabBills\bin\Debug\CabBills.exe
+C:\TNow Documents\CabBills\CabBills\bin\Debug\CabBills.pdb
+C:\TNow Documents\CabBills\CabBills\obj\Debug\CabBills.exe
+C:\TNow Documents\CabBills\CabBills\obj\Debug\CabBills.pdb
+E:\TNow Documents\CabBills\CabBills\bin\Debug\CabBills.exe.config
+E:\TNow Documents\CabBills\CabBills\obj\Debug\CabBills.exe
+E:\TNow Documents\CabBills\CabBills\obj\Debug\CabBills.pdb
+E:\TNow Documents\CabBills\CabBills\bin\Debug\CabBills.exe
+E:\TNow Documents\CabBills\CabBills\bin\Debug\CabBills.pdb
+E:\TNow Documents\CabBills\CabBills\obj\Debug\CabBills.csprojResolveAssemblyReference.cache
+E:\TNow Documents\CabBills\CabBills\obj\Debug\CabBills.csproj.CoreCompileInputs.cache
