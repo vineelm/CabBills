@@ -14,8 +14,8 @@ namespace CabBills
     {
         static void Main(string[] args)
         {
-            string billPath = @"E:\TNow Documents\CabBills\CabBills\Ola_GST_OnlyFare.html";
-            string excelPath = @"E:\TNow Documents\CabBills\CabBills\Ola_GST_OnlyFare.xlsx";
+            string billPath = @"E:\TNow Documents\CabBills\CabBills\htmlFormats\Ola_GST_OnlyFare.html";
+            string excelPath = @"E:\TNow Documents\CabBills\CabBills\ExcelFilesOla_GST_OnlyFare.xlsx";
 
             List<BillData> lstBills = LoadExcel(excelPath);
 
@@ -44,11 +44,6 @@ namespace CabBills
                 billHTML = billHTML.Replace("$DistanceKms$", data.DistanceKms);
                 billHTML = billHTML.Replace("$DistanceFare$", data.DistanceFare);
 
-
-                //billHTML = billHTML.Replace("$FirstKms$", data.FirstKms);
-                //billHTML = billHTML.Replace("$LastKms$", data.LastKms);
-                //billHTML = billHTML.Replace("$FirstKmsPrice$", data.FirstKmsPrice);
-                //billHTML = billHTML.Replace("$LastKmsPrice$", data.LastKmsPrice);
                 billHTML = billHTML.Replace("$RideTime$", data.RideTime);
                 billHTML = billHTML.Replace("$RideFare$", data.RideFare);
                 billHTML = billHTML.Replace("$AdvanceBooking$", data.AdvanceBooking);

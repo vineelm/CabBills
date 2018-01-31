@@ -18,9 +18,5 @@
         public string EndTime { get; set; }
         public string SourceAddress { get; set; }
         public string DestinationAddress { get; set; }
-
-
-
-
     }
 }
