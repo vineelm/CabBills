@@ -46,24 +46,46 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bill.cs" />
     <Compile Include="BillData.cs" />
+    <Compile Include="Invoice.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="bills_simplified.xlsx" />
-    <None Include="bills_simplified_old.xlsx" />
-    <None Include="Ola_GST_OnlyFare.xlsx" />
-    <None Include="temporary advance details.xlsx" />
+    <None Include="bin\Debug\CabBills.exe.config" />
+    <None Include="bin\Debug\CabBills.vshost.exe.config" />
+    <None Include="ExcelFiles\bills_simplified.xlsx" />
+    <None Include="ExcelFiles\bills_simplified_old.xlsx" />
+    <None Include="ExcelFiles\Invoice.xlsx" />
+    <None Include="ExcelFiles\Ola_GST_OnlyFare.xlsx" />
+    <None Include="ExcelFiles\temporary advance details - Copy.xlsx" />
+    <None Include="ExcelFiles\temporary advance details.xlsx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\Bills\Kothapet_Walamtari.png" />
+    <Content Include="bin\Debug\Bills\logonew.gif" />
+    <Content Include="bin\Debug\Bills\Peerancheruvu_Walamtari.png" />
+    <Content Include="bin\Debug\Bills\Peerancheruvu_Walamtari_via_tolichowki.png" />
+    <Content Include="bin\Debug\Bills\Walamtari_Kothapet.png" />
+    <Content Include="bin\Debug\Bills\Walamtari_Peerancheruvu.png" />
+    <Content Include="bin\Debug\CabBills.exe" />
+    <Content Include="bin\Debug\CabBills.pdb" />
+    <Content Include="bin\Debug\CabBills.vshost.exe" />
     <Content Include="Cab.html" />
-    <Content Include="Chaitanyapuri_Walamtari_Simplified.html" />
-    <Content Include="logonew.gif" />
-    <Content Include="Ola_GST.html" />
-    <Content Include="Ola_GST_OnlyFare.html" />
-    <Content Include="Sample.html" />
+    <Content Include="HTMLFormats\Chaitanyapuri_Walamtari_Simplified.html" />
+    <Content Include="HTMLFormats\Invoice.html" />
+    <Content Include="HTMLFormats\Ola_GST.html" />
+    <Content Include="HTMLFormats\Ola_GST_OnlyFare_WithDriver.html" />
+    <Content Include="HTMLFormats\Ola_GST_OnlyFare.html" />
+    <Content Include="HTMLFormats\Sample.html" />
+    <Content Include="Images\Kothapet_Walamtari.png" />
+    <Content Include="Images\logonew.gif" />
+    <Content Include="Images\Peerancheruvu_Walamtari.png" />
+    <Content Include="Images\Peerancheruvu_Walamtari_via_tolichowki.png" />
+    <Content Include="Images\Walamtari_Kothapet.png" />
+    <Content Include="Images\Walamtari_Peerancheruvu.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

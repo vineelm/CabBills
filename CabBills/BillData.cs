@@ -18,5 +18,11 @@
         public string EndTime { get; set; }
         public string SourceAddress { get; set; }
         public string DestinationAddress { get; set; }
+
+        public string DriverPhoto { get; set; }
+        public string DriverName { get; set; }
+
+        public string CarImage { get; set; }
+        public string CarType { get; set; }
     }
 }
